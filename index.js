@@ -13,9 +13,8 @@ function destructivelyPrependKitten(Bob) {
 function destructivelyRemoveLastKitten() {
   return kittens.pop()
 }
-function destructivelyRemoveFirstKitten(array,kitten) {
-  kittens.shift(array)
-  return array
+function destructivelyRemoveFirstKitten() {
+  return kittens.shift()
 }
 function appendKitten(array,kitten) {
   [array, ...appendKitten]
