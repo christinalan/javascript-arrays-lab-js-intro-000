@@ -6,9 +6,9 @@ function destructivelyAppendKitten(array, Ralph) {
   kittens.push(array)
   return kittens
 }
-function destructivelyPrependKitten(array,kitten) {
+function destructivelyPrependKitten(array,Bob) {
   kittens.unshift(array)
-  return array
+  return kittens
 }
 function destructivelyRemoveLastKitten(array,kitten) {
   kittens.pop(array)
