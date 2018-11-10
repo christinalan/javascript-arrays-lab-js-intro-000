@@ -2,9 +2,9 @@ var kittens = ['Milo', 'Otis', 'Garfield']
  //define your array here
 
 // Add your functions and code here
-function destructivelyAppendKitten(array, kitten) {
-  kittens.push(array)
-  return kittens
+function destructivelyAppendKitten(array, Broom) {
+  Broom.push(array)
+  return Broom
 }
 function destructivelyPrependKitten(array,kitten) {
   kittens.unshift(array)
